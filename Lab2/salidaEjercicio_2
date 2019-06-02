@@ -1,0 +1,700 @@
+Generacion de Pobloblacion
+
+[ A | B | C | E | D | ]	 =  Fit : 0 Porcentaje 0%
+[ A | B | D | C | E | ]	 =  Fit : 0 Porcentaje 0%
+[ A | B | D | E | C | ]	 =  Fit : 0 Porcentaje 0%
+[ A | B | E | C | D | ]	 =  Fit : 0 Porcentaje 0%
+[ A | B | E | D | C | ]	 =  Fit : 0 Porcentaje 0%
+[ A | C | B | D | E | ]	 =  Fit : 0 Porcentaje 0%
+[ A | C | B | E | D | ]	 =  Fit : 0 Porcentaje 0%
+[ A | C | D | B | E | ]	 =  Fit : 0 Porcentaje 0%
+[ A | C | D | E | B | ]	 =  Fit : 0 Porcentaje 0%
+[ A | C | E | B | D | ]	 =  Fit : 0 Porcentaje 0%
+
+Evaluacion de Individuos con Funcion Objetivo
+
+[ A | B | C | E | D | ]	 =  Fit : 12 Porcentaje 9.7561%
+[ A | B | D | C | E | ]	 =  Fit : 12 Porcentaje 9.7561%
+[ A | B | D | E | C | ]	 =  Fit : 12 Porcentaje 9.7561%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 8.13008%
+[ A | B | E | D | C | ]	 =  Fit : 13 Porcentaje 10.5691%
+[ A | C | B | D | E | ]	 =  Fit : 15 Porcentaje 12.1951%
+[ A | C | B | E | D | ]	 =  Fit : 13 Porcentaje 10.5691%
+[ A | C | D | B | E | ]	 =  Fit : 13 Porcentaje 10.5691%
+[ A | C | D | E | B | ]	 =  Fit : 13 Porcentaje 10.5691%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 8.13008%
+---------------------------------------------------------
+Iteracion N°0 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 83   Si hay cruzamiento 
+[ A | C | D | E | B |  ]
+[ A | C | D | E | B |  ]
+[ A | B | D | C | E |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | D | C | E |  ]
+-Valor aleatorio Cruzamiento : 35   Si hay cruzamiento 
+[ A | C | D | E | B |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | D | B |  ]
+----Hijo 2----
+[ A | C | D | B | E |  ]
+-Valor aleatorio Cruzamiento : 49   Si hay cruzamiento 
+[ A | B | D | E | C |  ]
+[ A | C | B | E | D |  ]
+----Hijo 1----
+[ A | C | B | E | D |  ]
+----Hijo 2----
+[ A | B | D | E | C |  ]
+-Valor aleatorio Cruzamiento : 27   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | B | E | D |  ]
+----Hijo 1----
+[ A | C | B | E | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 63   Si hay cruzamiento 
+[ A | B | D | E | C |  ]
+[ A | B | E | D | C |  ]
+----Hijo 1----
+[ A | B | E | D | C |  ]
+----Hijo 2----
+[ A | B | D | E | C |  ]
+
+Evaluación de Individuos
+[ A | B | C | E | D | ]	 =  Fit : 12 Porcentaje 4.93827%
+[ A | B | D | C | E | ]	 =  Fit : 12 Porcentaje 4.93827%
+[ A | B | D | E | C | ]	 =  Fit : 12 Porcentaje 4.93827%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 4.11523%
+[ A | B | E | D | C | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | C | B | D | E | ]	 =  Fit : 15 Porcentaje 6.17284%
+[ A | C | B | E | D | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | C | D | B | E | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | C | D | E | B | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 4.11523%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 4.11523%
+[ A | B | D | C | E | ]	 =  Fit : 12 Porcentaje 4.93827%
+[ A | C | E | D | B | ]	 =  Fit : 12 Porcentaje 4.93827%
+[ A | C | D | B | E | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | C | B | E | D | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | B | D | E | C | ]	 =  Fit : 12 Porcentaje 4.93827%
+[ A | C | B | E | D | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 4.11523%
+[ A | B | E | D | C | ]	 =  Fit : 13 Porcentaje 5.34979%
+[ A | B | D | E | C | ]	 =  Fit : 12 Porcentaje 4.93827%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 19.2308%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 19.2308%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 19.2308%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 19.2308%
+[ A | B | C | E | D | ]	 =  Fit : 12 Porcentaje 23.0769%
+---------------------------------------------------------
+Iteracion N°1 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 26   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 11   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | C | E | D |  ]
+----Hijo 1----
+[ A | B | C | E | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 30   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 67   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+-Valor aleatorio Cruzamiento : 58   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | C | E | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | C | E | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | B | C | E | D | ]	 =  Fit : 12 Porcentaje 7.69231%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | B | C | E | D | ]	 =  Fit : 12 Porcentaje 7.69231%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.41026%
+[ A | B | C | E | D | ]	 =  Fit : 12 Porcentaje 7.69231%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°2 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 11   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 73   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+----Hijo 1----
+[ A | B | E | C | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 84   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 24   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+-Valor aleatorio Cruzamiento : 13   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°3 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 80   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 62   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 81   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+-Valor aleatorio Cruzamiento : 84   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+-Valor aleatorio Cruzamiento : 29   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°4 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 24   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+----Hijo 1----
+[ A | B | E | C | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 67   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 43   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 8   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+-Valor aleatorio Cruzamiento : 54   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°5 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 60   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+----Hijo 1----
+[ A | B | E | C | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 26   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 70   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 67   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+-Valor aleatorio Cruzamiento : 2   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°6 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 52   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+----Hijo 1----
+[ A | B | E | C | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 80   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 65   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 19   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 31   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°7 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 71   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 9   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 56   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 86   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+----Hijo 1----
+[ A | B | E | C | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 83   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | B | E | C | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°8 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 28   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 29   Si hay cruzamiento 
+[ A | B | E | C | D |  ]
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+[ A | B | E | C | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 18   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 55   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 64   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+---------------------------------------------------------
+Iteracion N°9 : 
+
+Seleccion de Individuos
+
+-Valor aleatorio Cruzamiento : 50   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | B | E | C | D |  ]
+----Hijo 1----
+[ A | B | E | C | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 34   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 14   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 43   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+-Valor aleatorio Cruzamiento : 65   Si hay cruzamiento 
+[ A | C | E | B | D |  ]
+[ A | C | E | B | D |  ]
+----Hijo 1----
+[ A | C | E | B | D |  ]
+----Hijo 2----
+[ A | C | E | B | D |  ]
+
+Evaluación de Individuos
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 6.66667%
+
+Seleccion de Siguiente Población
+[ A | B | E | C | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
+[ A | C | E | B | D | ]	 =  Fit : 10 Porcentaje 20%
