@@ -81,11 +81,9 @@ def getRandDiffOf(lowerV,upperV,x):
 def newSolutionVectors():
 	vecOfSol=[]
 	for i in range(NS):
-	
 		k=getRandDiffOf(0,NS-1,i)
 		j=random.randint(0,1)
 		o=random.uniform(-1,1)
-		
 		
 		v=[population[i]['x1'],population[i]['x2']]
 		
